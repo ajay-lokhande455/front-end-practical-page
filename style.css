@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+:root {
+    --main-color: #005F73;
+}
+
+/*header section */
+nav {
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-contain {
+    padding: 20px;
+}
+
+.right-contain ul {
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    list-style: none;
+}
+
+.right-contain ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* hero section */
+
+.banner img {
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.backgraund-box{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+.hero-heading {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 20px;
+    color:#f5f5f5;
+}
+
+.banner p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+    color: #f5f5f5;
+}
+
+.banner .btn {
+    background-color: #FF7043;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    background-color: white;
+    padding: 0 15vh;
+}
+
+.services h2 {
+    padding-top: 20px;
+    color: #1e3bcc;
+    font-size: 28px;
+}
+.services p {
+    padding-top: 10px;
+}
+.services ul {
+    list-style-type: circle;
+    padding: 5px 45px;
+}
+
+.services ul li {
+    margin: 10px 0;
+}
+
+/* About Us Section */
+.about {
+    padding: 0 15vh;
+    background-color:#f5f5f5 ;
+}
+.about h2{
+    padding-top: 20px;
+    font-size: 28px;
+    color: rgb(86, 222, 86);
+}
+.about p{
+    padding: 10px 0 15px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 0 15vh;
+    background-color: white;
+
+}
+
+.contact h2 {
+    padding-top: 20px;
+    color: rgb(224, 17, 17);
+    font-size: 28px;
+}
+.contact p{
+    padding-top: 10px;
+}
+.contact p + p{
+    padding-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+}
